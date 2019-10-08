@@ -27,10 +27,10 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5p-dv-ZZm">
-                                <rect key="frame" x="192" y="598" width="30" height="30"/>
-                                <state key="normal" title="Add"/>
+                                <rect key="frame" x="171" y="598" width="72" height="30"/>
+                                <state key="normal" title="Add Photo"/>
                                 <connections>
-                                    <action selector="didTapAddButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a6F-ry-sAk"/>
+                                    <action selector="didTapAddPhotoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DwG-MN-NcD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,7 +44,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="Bvt-dR-Kpv" id="Tvo-q3-asD"/>
+                        <outlet property="imageView" destination="Bvt-dR-Kpv" id="4mn-cv-IRc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
